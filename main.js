@@ -70,7 +70,7 @@ function create_board(size_x, size_y) {
 }
 
 function game_over() {
-  for (let index = 0; index < 4; index++) {
+  for (let index = 0; index < ghost_obj.length; index++) {
     if (player_obj.position[0] === ghost_obj[index].position[0] && player_obj.position[1] === ghost_obj[index].position[1]) {
       alert_text.textContent = "You Lose.. ";
       document.querySelector('.alert-Game').style = "display: block";
@@ -84,7 +84,7 @@ create_board(28, 16);
 
 
 //player start location update
-for (let index = 0; index < 4; index++) {
+for (let index = 0; index < ghost_obj.length; index++) {
   ghost_obj[index].update_ghost(ghost_pos[index]);
 }
 player_obj.update_player(start_pos);
@@ -103,7 +103,7 @@ addEventListener('keydown', (event) => {
 
 setInterval(() => {
   if (not_end) {
-    for (let index = 0; index < 4; index++) {
+    for (let index = 0; index < ghost_obj.length; index++) {
       ghost_obj[index].update_ghost(ghost_obj[index].path_free());
       game_over(player_obj.position, ghost_obj[index].position); // Check game over condition after each ghost moves
     }

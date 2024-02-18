@@ -5,7 +5,7 @@ class Player {
     this.score = score;
     this.direction = this.direction;
     this.img = document.createElement("iframe");
-    this.img.src = "./pacma.html";
+    this.img.src = "./pacman.html";
     this.img.id = "pac-man";
     this.sound = document.getElementById("waka");
     this.box = document.getElementById(`${position[0]}-${position[1]}`);

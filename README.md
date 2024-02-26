@@ -29,7 +29,7 @@ This Pac-Man game is a simple yet engaging recreation of the classic arcade game
 To run this project locally, follow these steps:
 1. Clone the repository to your local machine:
    ```bash
-   git [clone https://github.com/Itaybo89/pacman---JavaScript]
+   git clone https://github.com/Itaybo89/pacman---JavaScript.git
    ```
 2. Open the `index.html` file in your web browser.
 
@@ -45,6 +45,6 @@ The development began with constructing the game board through a matrix represen
 - This project was developed as part of the ITC course curriculum. Special thanks to my project partner and our course instructors for their guidance.
 
 ## License
-This project is open source and available under the [MIT License](LICENSE.md).
+This project is open source and available under the [MIT License](LICENSE.md). Make sure to check the link to the license file (`LICENSE.md`) if it exists in your repository and update it accordingly if needed.
 ```
 

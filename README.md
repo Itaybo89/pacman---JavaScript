@@ -1,4 +1,3 @@
-```markdown
 # Pac-Man Game
 
 ## Live Link / Demo Link
@@ -18,6 +17,9 @@
 
 ## About The Project
 This Pac-Man game is a simple yet engaging recreation of the classic arcade game. The project was developed using HTML, CSS, and JavaScript, focusing on dynamic board generation, character movement, and score tracking. The motivation behind this project was to apply fundamental programming concepts and create an interactive web-based game.
+
+## Screenshots
+[![Pacman Game](https://github.com/Itaybo89/pacman---JavaScript/blob/main/pacmanGame.JPG)](http://pacman-html-js.s3-website.eu-north-1.amazonaws.com/)
 
 ## Technologies Used
 - HTML
@@ -45,4 +47,3 @@ The development began with constructing the game board through a matrix represen
 
 ## License
 This project is open source and available under the [MIT License](LICENSE.md). Make sure to check the link to the license file (`LICENSE.md`) if it exists in your repository and update it accordingly if needed.
-```

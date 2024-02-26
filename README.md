@@ -1,6 +1,6 @@
 # Pac-Man Game
 
-## Live Link / Demo Link
+## Live Link 
 ### [Play Pac-Man Game](http://pacman-html-js.s3-website.eu-north-1.amazonaws.com/)
 
 ## Table of Contents
